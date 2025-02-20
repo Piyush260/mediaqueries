@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        height: 100vh;
+        width: 100vw;
+        background-color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+    .box{
+        background-color: white;
+        max-width: 300px;
+        min-width: 300px;
+        height: 385px;
+        max-height: 385px;
+        margin: 20px;
+        color: white;
+        border-radius: 25px;
+        box-shadow: 10px 10px 10px 10px grey;
+
+    }
+    .box1{
+       background-color: #b0c4de5a;
+    }
+    .b1{
+        width: 100%;
+        height: 70%;
+    }
+    .b1 img{
+       width: 300px;
+       height: 250px;
+       border-radius: 25px 25px 0 0;
+    }
+    .box1 h2{
+        margin-left: 7px;
+        text-shadow: 0 2px 2px black;
+        margin-top: 7px;
+    }
+    .box1 p{
+        margin-left: 10px;
+        color: black;
+        text-shadow: 0 2px 2px white;
+        font-size: 25px;
+    }
+    .box1 button{
+        border-radius: 25px;
+        background-color: white;
+        margin-left: 25px;
+        margin-top: 10px;
+        border: none;
+        padding: 10px;
+        width: 250px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .box1 button:hover{
+        box-shadow: 5px 5px 10px 5px grey;
+        transition: 0.5s all ease;
+    }
+    .box2{
+        background-color: rgba(128, 128, 128, 0.351);
+    }
+    .b2{
+        width: 100%;
+        height: 70%;
+    }
+    .b2 img{
+        height: 250px;
+        width: 300px;
+        border-radius: 25px 25px 0 0;
+    }
+    .box2 h2{
+        margin-left: 7px;
+        text-shadow: 0 2px 2px black;
+        margin-top: 7px;
+    }
+    .box2 p{
+        margin-left: 10px;
+        color: black;
+        text-shadow: 0 2px 2px white;
+        font-size: 25px;
+    }
+    .box2 button{
+        border-radius: 25px;
+        background-color: white;
+        margin-left: 25px;
+        margin-top: 10px;
+        border: none;
+        padding: 10px;
+        width: 250px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .box2 button:hover{
+        box-shadow: 5px 5px 10px 5px grey;
+        transition: 0.5s all ease;
+    }
+    .box3{
+        background-color: rgba(0, 0, 0, 0.347);
+    }
+    .b3{
+        width: 100%;
+        height: 65%;
+    }
+    .b3 img{
+        height: 250px;
+        width: 300px;
+        border-radius: 25px 25px 0 0;
+    }
+    .box3 h2{
+         margin-top: 13px; 
+         text-shadow: 0 2px 2px black;
+        margin-left: 7px;
+    }
+    .box3 p{
+        margin-left: 10px;
+        color: black;
+        text-shadow: 0 2px 2px white;
+        font-size: 25px;
+    }
+    .box3 button{
+        border-radius: 25px;
+        background-color: white;
+        margin-left: 25px;
+         margin-top: 10px; 
+        border: none;
+        padding: 10px;
+        width: 250px;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+    .box3 button:hover{
+        box-shadow: 5px 5px 10px 5px grey;
+        transition: 0.5s all ease;
+    }
+    .box4{
+        background-color: rgba(70, 131, 180, 0.336);
+    }
+    .b4{
+        width: 100%;
+        height: 65%;
+    }
+    .b4 img{
+        height: 250px;
+        width: 300px;
+        border-radius: 25px 25px 0 0;
+    }
+    .box4 h2{
+         margin-top: 13px;
+         text-shadow: 0 2px 2px black; 
+        margin-left: 7px;
+    }
+    .box4 p{
+        margin-left: 10px;
+        color: black;
+        text-shadow: 0 2px 2px white;
+        font-size: 25px;
+    }
+    .box4 button{
+        border-radius: 25px;
+        background-color: white;
+        margin-left: 25px;
+        margin-top: 10px;
+        border: none;
+        padding: 10px;
+        width: 250px;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+    .box4 button:hover{
+        box-shadow: 5px 5px 10px 5px grey;
+        transition: 0.5s all ease;
+    }
+    @media(max-width:1115px) {
+        .container{
+                display: flex;
+                flex-direction: column;
+                overflow: scroll;
+               scrollbar-width: 0;
+        }
+        /* .box{
+            max-width: 300px;
+            min-width: 300px;
+            height: 350px;
+            max-height: 450px;
+        } */
+    }
+    @media(max-width:600px)
+        {
+            .container{
+                
+                display: flex;
+                flex-direction: row;
+                 overflow: scroll;
+                /* scrollbar-width: 0; */
+            }
+        }
+</style>
+<body>
+    <div class="container">
+        <div class="box box1">
+            <div class="b1">
+                <img src="rolex.png" alt="">
+                <h2>ROLLEX SUBMARINER</h2>
+                <p><b>$18<sup>99</sup></b></p>
+                <button>SHOP NOW</button>
+            </div>
+            
+        </div>
+        <div class="box box2">
+            <div class="b2">
+                <img src="titan.webp" alt="">
+                <h2>TITAN</h2>
+                <p><b>$20<sup>89</sup></b></p>
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+        <div class="box box3">
+            <div class="b3"><img src="raymond.avif" alt=""></div>
+            <h2>RAYMOND WEIL</h2>
+                <p><b>$21<sup>79</sup></b></p>
+                <button>SHOP NOW</button>
+        </div>
+        <div class="box box4">
+            <div class="b4"><img src="omega.jpg" alt=""></div>
+            <h2>OMEGA</h2>
+                <p><b>$25<sup>69</sup></b></p>
+                <button>SHOP NOW</button>
+        </div>
+    </div>
+</body>
+</html>
